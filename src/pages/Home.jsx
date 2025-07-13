@@ -1,8 +1,11 @@
 export default function Home() {
     return (
-        <div className='p-4 bg-red-500 text-white'>
-            <h1 className='text-3xl font-bold'>Home</h1>
-            <p>This is the Home page.</p>
+        <div className='bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen p-6'>
+            <h1 className='text-3xl font-bold'>Test Dark Mode</h1>
+            <p>
+                If this text background changes when you toggle, dark mode is
+                working!
+            </p>
         </div>
     );
 }
